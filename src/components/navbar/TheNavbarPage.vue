@@ -67,7 +67,7 @@
                 type="button"
                 data-twe-ripple-init
                 data-twe-ripple-color="light"
-                class="me-3 flex rounded-full bg-red-600 px-6 py-3 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out"
+                class="me-3 flex rounded-full bg-[#e51a2d] px-6 py-3 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out"
               >
                 <span
                   ><svg
@@ -91,7 +91,7 @@
                 type="button"
                 data-twe-ripple-init
                 data-twe-ripple-color="light"
-                class="me-3 inline-block rounded-full bg-red-600 px-6 py-3 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out"
+                class="me-3 inline-block rounded-full bg-[#e51a2d] px-6 py-3 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out"
               >
                 FAQ
               </button>

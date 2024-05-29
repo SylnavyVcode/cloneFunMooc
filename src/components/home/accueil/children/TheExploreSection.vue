@@ -26,7 +26,7 @@
             />
             <button
               type="submit"
-              class="absolute top-0 end-0 p-2.5 h-full text-sm font-medium text-white bg-red-600 rounded-e-full border focus:ring-4"
+              class="absolute top-0 end-0 p-2.5 h-full text-sm font-medium text-white bg-[#e51a2d] rounded-e-full border focus:ring-4"
             >
               <svg
                 class="w-4 h-4"
@@ -47,7 +47,7 @@
           </div>
           <div class="flex justify-center items-center my-3 w-full">
             <button
-              class="border-0 bg-transparent pointer p-2 px-4 rounded-full text-white bg-red-600 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0"
+              class="border-0 bg-transparent pointer p-2 px-4 rounded-full text-white bg-[#e51a2d] hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0"
             >
               Explorer notre catalogie ->
             </button>

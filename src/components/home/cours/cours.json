@@ -1,0 +1,68 @@
+{
+  "cours": [
+    {
+      "date": "27 mai 2024",
+      "image": "src/assets/images/cours/journalisme_1.jpg",
+      "title": "Le MOOC européen du journalisme de solutions",
+      "adresse": "Aix-Marseille Université",
+      "_id": "38010",
+      "message": "Éleveur de poules, je suis confronté à un mouvement de grève sans précédent. Mes poules refusent de pondre et revendiquent de nouveaux moyens de lutte contre l’insécurité. Comment leur rabattre leur caquet sans me faire plumer ? Jacques T."
+    },
+    {
+      "date": "27 mai 2024",
+      "image": "src/assets/images/cours/management_care.jpg",
+      "title": "CARE management pour soi et ses équipes",
+      "adresse": "Conservatoire National des Arts et Métiers (Cnam)",
+      "_id": "01061",
+      "message": "MidJourney, YouChat, DALL-E, SummarizeBot et SlidesAI : grâce à cette formation du Cnam, découvrez les nouveaux outils basés sur l’IA générative qui ont d’ores et déjà un impact sur les procédures de travail."
+    },
+    {
+      "date": "27 mai 2024",
+      "image": "src/assets/images/cours/reconvert.jpg",
+      "title": "RECONVERT : initiation aux enjeux de la déconstruction du bâtiment et à la gestion de ses ressources",
+      "adresse": "Institut Mines-Télécom (IMT)",
+      "_id": "04053",
+      "message": "À quoi ressemblera la ville de demain ? Grâce à quatre MOOC sélectionnés avec soin et un peu d'imagination, embarquez pour une balade immersive au cœur d'une ville futuriste. Fermez les yeux et laissez-vous guider…"
+    },
+    {
+      "date": "27 mai 2024",
+      "image": "src/assets/images/cours/batiment.jpg",
+      "title": "L'Accessibilité des bâtiments publics",
+      "adresse": "Centre national de la fonction publique territoriale (CNFPT)",
+      "_id": "87055",
+      "message": "IPv6 est une technologie incontournable pour le développement de l’internet. C’est pourquoi, maîtriser les dernières évolutions d’IPv6 est indispensable pour toute personne impliquée dans le fonctionnement des réseaux !"
+    },
+    {
+      "date": "27 mai 2024",
+      "image": "src/assets/images/cours/jeux.jpg",
+      "title": "Comment évaluer l'impact des Jeux Olympiques et Paralympiques ?",
+      "adresse": "Université Paris 1 Panthéon-Sorbonne",
+      "_id": "16017",
+      "message": "Optimisez la stratégie numérique de votre TPE et améliorez l’utilisation de vos outils : avec cette formation, vous obtiendrez les clés pour un meilleur choix, une évaluation des risques et des enjeux de chacun de vos arbitrages."
+    },
+    {
+      "date": "27 mai 2024",
+      "image": "src/assets/images/cours/Vaccinology.jpg",
+      "title": "Vaccinology",
+      "adresse": "Institut Pasteur",
+      "_id": "96002",
+      "message": "Optimisez la stratégie numérique de votre TPE et améliorez l’utilisation de vos outils : avec cette formation, vous obtiendrez les clés pour un meilleur choix, une évaluation des risques et des enjeux de chacun de vos arbitrages."
+    },
+    {
+      "date": "27 mai 2024",
+      "image": "src/assets/images/cours/equipe.jpg",
+      "title": "Travailler autrement : les astuces à connaître, les biais à éviter",
+      "adresse": "Centre national de la fonction publique territoriale (CNFPT)",
+      "_id": "87063",
+      "message": "Optimisez la stratégie numérique de votre TPE et améliorez l’utilisation de vos outils : avec cette formation, vous obtiendrez les clés pour un meilleur choix, une évaluation des risques et des enjeux de chacun de vos arbitrages."
+    },
+    {
+      "date": "27 mai 2024",
+      "image": "src/assets/images/cours/sante.jpg",
+      "title": "Manager en santé",
+      "adresse": "Conservatoire National des Arts et Métiers (Cnam)",
+      "_id": "01048",
+      "message": "Optimisez la stratégie numérique de votre TPE et améliorez l’utilisation de vos outils : avec cette formation, vous obtiendrez les clés pour un meilleur choix, une évaluation des risques et des enjeux de chacun de vos arbitrages."
+    }
+  ]
+}
