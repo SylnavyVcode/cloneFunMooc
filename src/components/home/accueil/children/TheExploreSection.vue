@@ -4,15 +4,17 @@
       <h1 class="text-4xl font-semibold">
         <span class="text-red-600">Se former</span> en liberté
       </h1>
-      <h4 class="text-3xl">
+      <h4 class="text-xl">
         Des cours en ligne pour découvrir, apprendre, progresser et réussir
       </h4>
     </div>
     <div>
       <form>
-        <label for="search_cours" class="text-lg font-bold"
-          >Chercher dans nos cours</label
-        >
+        <div class="mb-6">
+          <label for="search_cours" class="text-lg font-bold"
+            >Chercher dans nos cours</label
+          >
+        </div>
         <div class="block md:flex justify-center items-center w-full">
           <div class="relative w-full">
             <input
@@ -45,7 +47,7 @@
           </div>
           <div class="flex justify-center items-center my-3 w-full">
             <button
-              class="border-0 bg-transparent pointer p-2 px-4 rounded-full text-white bg-[#e51a2d] hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0"
+              class="text-xs border-0 pointer p-3 px-4 rounded-full text-white bg-[#e51a2d] hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0"
             >
               Explorer notre catalogie ->
             </button>

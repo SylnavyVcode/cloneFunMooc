@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full bottom-0 left-0">
     <div class="w-full">
       <img
         class="w-full h-16"

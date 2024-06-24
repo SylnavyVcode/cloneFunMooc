@@ -2,7 +2,7 @@
   <main>
     <!-- Main navigation container -->
     <nav
-      class="relative flex w-full flex-wrap items-center justify-between py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4"
+      class="relative flex w-full flex-wrap items-center justify-between py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4 mb-6"
       data-twe-navbar-ref
     >
       <div class="flex w-full flex-wrap items-center justify-between">
@@ -133,7 +133,10 @@
           <div class="flex w-full flex-wrap items-center justify-between px-3">
             <nav class="w-full rounded-md" aria-label="breadcrumb">
               <ol class="list-reset ms-2 flex">
-                <li class="hover: border-blue-800 hover:border-b-8 pb-2">
+                <li
+                  @click="goToPage('home')"
+                  class="hover: border-blue-800 hover:border-b-8 pb-2"
+                >
                   <a
                     href="#"
                     class="text-black mx-2 font-semibold transition duration-200 hover: border-blue-800 hover:ease-in-out"
@@ -141,7 +144,10 @@
                   >
                 </li>
 
-                <li class="hover: border-blue-800 hover:border-b-8 pb-2">
+                <li
+                  @click="goToPage('actualities')"
+                  class="hover: border-blue-800 hover:border-b-8 pb-2"
+                >
                   <a
                     href="#"
                     class="text-black mx-2 font-semibold transition duration-200 hover: border-blue-800 hover:ease-in-out"
@@ -149,21 +155,30 @@
                   >
                 </li>
 
-                <li class="hover: border-blue-800 hover:border-b-8 pb-2">
+                <li
+                  @click="goToPage('courses')"
+                  class="hover: border-blue-800 hover:border-b-8 pb-2"
+                >
                   <a
                     href="#"
                     class="text-black mx-2 font-semibold transition duration-200 hover: border-blue-800 hover:ease-in-out"
                     >Cours</a
                   >
                 </li>
-                <li class="hover: border-blue-800 hover:border-b-8 pb-2">
+                <li
+                  @click="goToPage('establishments')"
+                  class="hover: border-blue-800 hover:border-b-8 pb-2"
+                >
                   <a
                     href="#"
                     class="text-black mx-2 font-semibold transition duration-200 hover: border-blue-800 hover:ease-in-out"
                     >Etablissements</a
                   >
                 </li>
-                <li class="hover: border-blue-800 hover:border-b-8 pb-2">
+                <li
+                  @click="goToPage('about')"
+                  class="hover: border-blue-800 hover:border-b-8 pb-2"
+                >
                   <a
                     href="#"
                     class="text-black mx-2 font-semibold transition duration-200 hover: border-blue-800 hover:ease-in-out"
@@ -179,6 +194,16 @@
   </main>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    goToPage(page) {
+      console.log("je vais à la page ::::::", page);
+      this.$emit("goPage", page);
+    },
+  },
+};
 </script>
 <style></style>
