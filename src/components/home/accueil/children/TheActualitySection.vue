@@ -4,7 +4,7 @@
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mx-8 md:mx-0">
     <div v-for="(actu, id) in list_actu" :key="id" class="w-full mx-auto">
-      <span :class="{ 'text-[#e51a2d]': status, ' text-black': !tatus }">{{
+      <span :class="{ 'text-[#e51a2d]': status, ' text-black': !status }">{{
         actu.date
       }}</span>
       <img
@@ -16,7 +16,7 @@
         <div class="font-bold text-xl mb-2">{{ actu.title }}</div>
         <p
           class="text-gray-700 text-base"
-          :class="{ 'text-[#e51a2d]': status, ' text-black': !tatus }"
+          :class="{ 'text-[#e51a2d]': status, ' text-black': !status }"
         >
           {{ actu.message }}
         </p>

@@ -1,25 +1,34 @@
 <template>
   <div>
-    <div
-      class="bg-cover bg-center bg-[url('src/assets/images/home-intro-funmooc.jpg')]"
-    >
-      <div class="mx-2 md:mx-36"><TheExploreSection></TheExploreSection></div>
+    <div>
+      <div class="mx-4 sm:mx-20 md:mx-44 z-10">
+        <TheExploreSection></TheExploreSection>
+      </div>
     </div>
-    <div class="bg-gradient-to-r from-blue-900 from-10% to-sky-500 to-100% p-3">
-      <div class="mx-2 md:mx-36">
+    <div class="w-full">
+      <img
+        class="w-full h-16"
+        src="../../../assets/images/wave-dark.ad4d56642a16.svg"
+        alt=""
+      />
+    </div>
+    <div class="bg-gradient-to-r from-blue-900 from-10% to-sky-500 to-100%">
+      <div class="mx-4 sm:mx-20 md:mx-44">
         <TheCoursSection></TheCoursSection>
       </div>
     </div>
     <div class="">
-      <div class="mx-2 md:mx-36">
+      <div class="mx-4 sm:mx-20 md:mx-44">
         <TheActualitySection></TheActualitySection>
       </div>
     </div>
     <div class="">
-      <div class="mx-2 md:mx-36"><TheThemeSection></TheThemeSection></div>
+      <div class="mx-4 sm:mx-20 md:mx-44">
+        <TheThemeSection></TheThemeSection>
+      </div>
     </div>
     <div class="">
-      <div class="mx-2 md:mx-36">
+      <div class="mx-4 sm:mx-20 md:mx-44">
         <TheCreateurSection></TheCreateurSection>
       </div>
     </div>
