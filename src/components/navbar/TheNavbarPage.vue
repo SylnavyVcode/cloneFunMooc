@@ -128,12 +128,12 @@
       >
         <!-- Main navigation container -->
         <nav
-          class="relative flex w-full flex-wrap items-center justify-between bg-zinc-50 py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4"
+          class="relative flex w-full flex-wrap items-center justify-between py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4"
         >
           <div class="flex w-full flex-wrap items-center justify-between px-3">
             <nav class="w-full rounded-md" aria-label="breadcrumb">
               <ol class="list-reset ms-2 flex">
-                <li class="hover: border-blue-800 hover:border-b-8 pb-3">
+                <li class="hover: border-blue-800 hover:border-b-8 pb-2">
                   <a
                     href="#"
                     class="text-black mx-2 font-semibold transition duration-200 hover: border-blue-800 hover:ease-in-out"

@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="bg-cover bg-center bg-[url('src/assets/images/home-intro-funmooc.jpg')]"
-  >
+  <section class="w-full">
     <div class="md:w-2/3 mb-6 md:mb-28">
       <h1 class="text-4xl font-semibold">
         <span class="text-red-600">Se former</span> en liberté

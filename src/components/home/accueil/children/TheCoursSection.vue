@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r from-blue-900 from-10% to-sky-500 to-100% p-3">
+  <div class="">
     <div class="text-2xl font-semibold flex justify-center items-center mb-6">
       <span>Cours à la Une</span>
     </div>
