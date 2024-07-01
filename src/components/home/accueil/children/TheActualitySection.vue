@@ -1,10 +1,10 @@
 <template>
-  <div class="text-2xl font-semibold flex justify-center items-center mb-6">
+  <div class="pt-4 text-3xl font-bold flex justify-center items-center mb-6">
     <span>Actualités</span>
   </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mx-8 md:mx-0">
-    <div v-for="(actu, id) in list_actu" :key="id" class="w-full mx-auto">
-      <span :class="{ 'text-[#e51a2d]': status, ' text-black': !status }">{{
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mx-8 md:mx-0 pb-6">
+    <div @mouseover="sttutTextNews(id)" @mouseout="valueIdNew = null" v-for="(actu, id) in list_actu" :key="id" class="w-full mx-auto">
+      <span class="text-xs px-3"  :class="{ 'text-[#e51a2d]': valueIdNew == id, ' text-black': valueIdNew != id }">{{
         actu.date
       }}</span>
       <img
@@ -12,11 +12,11 @@
         :src="actu.image"
         alt="Sunset in the mountains"
       />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{{ actu.title }}</div>
+      <div class="p-4">
+        <div  :class="{ 'text-[#e51a2d]': valueIdNew == id, ' text-black': valueIdNew != id }" class="font-bold text-xl mb-2">{{ actu.title }}</div>
         <p
           class="text-gray-700 text-base"
-          :class="{ 'text-[#e51a2d]': status, ' text-black': !status }"
+         
         >
           {{ actu.message }}
         </p>
@@ -36,6 +36,9 @@
         >
       </div> -->
     </div>
+    <div class="m-auto">
+        <button class="rounded-md bg-red-600 text-white pointer font-semibold px-5 text-sm py-3">MORE COURSES</button>
+      </div>
   </div>
 </template>
 <script>
@@ -46,6 +49,7 @@ export default {
     return {
       list_actu: [],
       status: false,
+      valueIdNew: null,
     };
   },
   methods: {
@@ -56,6 +60,10 @@ export default {
     // handleMouseOut(){
     //   this.status = false
     // }
+    sttutTextNews(id){
+console.log("id >>>>>", id);
+this.valueIdNew = id
+    }
   },
   mounted() {
     console.log(list);
