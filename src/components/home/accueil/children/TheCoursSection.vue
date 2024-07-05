@@ -62,9 +62,9 @@
         >
       </div> -->
       </div>
-      <div class="m-auto">
-        <button class="rounded-md bg-white text-red-600 pointer font-semibold px-5 text-sm py-3">MORE COURSES</button>
-      </div>
+    </div>
+    <div class="flex justify-center items-center py-8">
+      <button class="rounded-md bg-white text-red-600 pointer font-semibold px-5 text-sm py-3">MORE COURSES</button>
     </div>
   </div>
 </template>

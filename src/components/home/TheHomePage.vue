@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div>
+    <div v-if="page== 'home'">
       <div
         v-if="page == 'home'"
         class="h-screen mt-[-20px] absolute inset-0 bg-cover bg-center bg-[url('src/assets/images/home-intro-funmooc.jpg')]"
