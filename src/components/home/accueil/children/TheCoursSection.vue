@@ -1,15 +1,15 @@
 <template>
   <div class="">
-    <div class="text-2xl font-semibold flex justify-center items-center mb-6">
+    <div class="pt-4 text-white text-3xl font-bold flex justify-center items-center mb-6">
       <span>Cours à la Une</span>
     </div>
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mx-4 md:mx-0"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mx-4 md:mx-0 pb-6"
     >
       <div
         v-for="(cours, id) in list_cours"
         :key="id"
-        class="relative w-full mx-auto bg-white rounded-lg h-[360px] sm:h-[366px] md:h-[376px] shadow-md"
+        class="relative w-full mx-auto bg-white rounded-lg h-[360px] sm:h-[300px] md:h-[376px] shadow-md shadow-white"
       >
         <img
           class="w-full h-[170px] object-cover rounded-t-lg"
@@ -62,6 +62,9 @@
         >
       </div> -->
       </div>
+    </div>
+    <div class="flex justify-center items-center py-8">
+      <button class="rounded-md bg-white text-red-600 pointer font-semibold px-5 text-sm py-3">MORE COURSES</button>
     </div>
   </div>
 </template>
